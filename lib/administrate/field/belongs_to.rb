@@ -31,6 +31,16 @@ module Administrate
         end
       end
 
+      def test_bruh
+        if cool
+          puts "awesome"
+        else
+          do 
+            nothing
+          end
+        end
+      end
+
       def display_candidate_resource(resource)
         associated_dashboard.display_resource(resource)
       end
